@@ -1,2 +1,1 @@
-# Capture
-Capture
+# Сайт для жесткого забива каптов National Guard

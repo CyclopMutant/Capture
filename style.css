@@ -1,0 +1,87 @@
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 97%;
+}
+
+.grid-container{
+    position: absolute;
+}
+
+.grid-container {
+    width: 89%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+.grid-item {
+    margin-left: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 4px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    height: 185px;
+    opacity: 20%;
+    width: 100%;
+    color: #ff0000;
+
+}
+.table{
+    position: absolute;
+    height: 16%;
+    width: 7%;
+    z-index: 0;
+}
+.purple {
+    background-color: #8e0087;
+    opacity: 85%;
+}
+
+.black {
+    background-color: #000000;
+    opacity: 85%;
+}
+
+.white {
+    background-color: #ffffff;
+    opacity: 70%;
+}
+
+.blue {
+    background-color: #0623d0;
+    opacity: 70%;
+}
+
+.green {
+    background-color: #00af18;
+    opacity: 70%;
+}
+.qwe{
+    height: 90%
+}
+.info1{
+    position: absolute;
+    top: 0%;
+    z-index: 100;
+}
+.info2{
+    position: absolute;
+    top: 3%;
+    z-index: 100;
+}
+.info3{
+    position: absolute;
+    top: 6%;
+    z-index: 100;
+}
+.info4{
+    position: absolute;
+    top: 9%;
+    z-index: 100;
+}
+.info5{
+    position: absolute;
+    top: 12%;
+    z-index: 100;
+}
