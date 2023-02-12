@@ -1,20 +1,11 @@
-const divs = document.querySelectorAll('.grid-item');
-Array.from(divs).forEach(div => {
-    div.addEventListener('click', classToggler);
-});
 
-const colors = ['purple', 'green', 'black', 'white', 'blue'];
-let	enumerator = 0;
+const colors = ['green', 'white', 'black', 'purple', 'blue'];
+const data = [5,2,2,2,1,1,1,5,5,2,1,1,5,5,5,5,4,4,4,4,3,3,3,3,3];
 
-function classToggler() {
-    if (enumerator < colors.length+1){
-        enumerator+=1;
+
+    for (let i = 1; i<26; i++){
+        document.getElementById(i.toString()).classList.add(colors[data[i-1]-1])
     }
-    else {enumerator=0}
-
-
-    this.classList.add(colors[enumerator]);
-    this.classList.remove(colors[enumerator-1]);
     const ma = document.querySelectorAll('.green');
     const delta = document.querySelectorAll('.black');
     const mp = document.querySelectorAll('.white');
@@ -30,4 +21,3 @@ function classToggler() {
     infoDelta.innerHTML = "Delta: " + mp.length;
     infoSd.innerHTML = "SD: " + sd.length;
     infoUsaf.innerHTML = "USAF: " + usaf.length;
-}
